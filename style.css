@@ -218,3 +218,9 @@ footer {
     color: #bbb;
     font-size: 12px;
 }
+
+@media (min-width: 768px) {
+    .mobile-only {
+        display: none;
+    }
+}
