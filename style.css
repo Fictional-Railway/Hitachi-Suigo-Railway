@@ -224,3 +224,72 @@ footer {
         display: none;
     }
 }
+
+.ticket-list {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ticket-box {
+    background: #f0f8ff;
+    border: 1px solid #004098;
+    padding: 20px;
+    text-align: center;
+    width: 40%;
+}
+
+.ticket-box h3 {
+    margin: 0 0 10px 0;
+    color: #004098;
+    font-size: 18px;
+}
+.ticket-box p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.ticket-price {
+    font-size: 20px;
+    color: #f26600;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+    .ticket-box {
+        width: 100%;
+    }
+}
+
+.ticket-box.special-offer {
+    background: #fff0f5;
+    border-color: #ff69b4;
+}
+.ticket-box.special-offer h3 {
+    color: #ff1493;
+}
+.ticket-box.special-offer .ticket-price {
+    color: #ff4500;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.info-item {
+    background: #f9fcff;
+    border: 1px solid #004098;
+    padding: 15px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.icon {
+    color: #004098;
+    margin-right: 8px;
+}
