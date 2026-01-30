@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>常陸水郷鉄道 公式ホームページ</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://use.fontawesome.com/releases/v6.7.2/css/all.css" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <div class="container header-top">
+        <div class="logo">
+            <a href="./index.html" style="display: block; text-decoration: none; color: inherit;">
+            <h1>常陸水郷鉄道</h1>
+            <p>HITACHI SUIGO RAILWAY</p></a>
+        </div>
+        <div class="menu-btn" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <nav id="navBar">
+        <div class="container">
+            <ul>
+                <li><a href="#">ホーム</a></li>
+                <li><a href="#">運行状況</a></li>
+                <li><a href="#">時刻表</a></li>
+                <li><a href="#">路線図</a></li>
+                <li><a href="#">沿線案内</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<!--
+<div class="hero">
+    <div class="container">
+        <h2>茨城を駆け巡る、<br class="mobile-only">
+        水鉄で見つけた旅</h2>
+        <p>急がない旅を、水鉄で見つけませんか。</p>
+    </div>
+</div>
+-->
+<div class="container">
+    <div class="main-area">
+        <div class="content-left">
+
+            <div class="label-blue">乗車券・定期券</div>
+            <div class="box">
+                <h4 class="ic-item-top-2">普通乗車券</h4>
+
+                <table class="table-ticket">
+                    <tr>
+                        <td class="ticket-left">発売箇所</td>
+                        <td>各駅では、その駅から有効な乗車券を発売します。</td>
+                    </tr>
+                    <tr>
+                        <td class="ticket-left">発売日</td>
+                        <td>ご乗車になる当日のみです。</td>
+                    </tr>
+                    <tr>
+                        <td class="ticket-left">有効期間</td>
+                        <td>片道乗車券は発売当日のみ、往復券は発売当日を含む２日間です。</td>
+                    </tr>
+                    <tr>
+                        <td class="ticket-left">途中下車</td>
+                        <td>途中下車されると、残りの区間は無効になります。</td>
+                    </tr>
+                    <tr>
+                        <td class="ticket-left">のりこし</td>
+                        <td>
+ご乗車になった駅から目的の駅までの運賃と、乗車券の運賃を比べ不足している場合は、差額をいただきます。</td>
+                    </tr>
+                    <tr>
+                        <td class="ticket-left">払戻し</td>
+                        <td>ご使用になる前で、有効期間内の乗車券に限り払戻しいたします。この場合手数料として110円をいただきます。</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="label-blue">ICカードについて</div>
+            <div class="box">
+                <p>当社では、PASMO・Suicaをはじめ、全国10種類の交通系ICカードがご利用いただけます。ご乗車の際に現金を用意する手間を省くことができます。<span style="color: #858585; font-size: xx-small;"><br>※「PASMO」は株式会社パスモの登録商標です。「Suica」は東日本旅客鉄道株式会社の登録商標です。</span></p>
+                <h4 class="ic-item-top">ICカードとは</h4>
+                <p>鉄道やバスなどの公共交通機関の運賃決済として利用できるICカードのことで、乗降時にバスの車載機にタッチするだけで、現金レスでスムーズにバスをご利用いただくことが可能になります。電子マネー機能も備えており、交通系ICカード対応店舗での買い物にも利用できます。</p>
+<h4 class="ic-item">ICカードの利用方法</h4>
+<h5>STEP 1</h5>
+<p>乗車口ドア付近にあるICカード読み取り部に、お手持ちのICカードをタッチし、乗車駅を記録させます。
+※始発駅でも必ずタッチして下さい。</p>
+<h5>STEP 2</h5>
+<p>降車時に運賃箱上のICカード読み取り部に、お手持ちのICカードをタッチして、自動的に運賃を引き去ります。</p>
+            </div>
+
+            <div class="label-blue">運賃表</div>
+            <div class="box">
+                <p>常陸水郷鉄道の運賃は以下の通りです。</p>
+
+                <table class="fare-table">
+                    <tr>
+                        <th>区間</th>
+                        <th>大人運賃</th>
+                        <th>小児運賃</th>
+                    </tr>
+                    <tr>
+                        <td>~10km</td>
+                        <td>¥100</td>
+                        <td>¥50</td>
+                    </tr>
+                    <tr>
+                        <td>10km~20km</td>
+                        <td>¥150</td>
+                        <td>¥75</td>
+                    </tr>
+                    <tr>
+                        <td>20km~30km</td>
+                        <td>¥300</td>
+                        <td>¥150</td>
+                    </tr>
+                    <tr>
+                        <td>30km~40km</td>
+                        <td>¥450</td>
+                        <td>¥225</td>
+                    </tr>
+                    <tr>
+                        <td>40km~50km</td>
+                        <td>¥600</td>
+                        <td>¥300</td>
+                    </tr>
+                    <tr>
+                        <td>50km~60km</td>
+                        <td>¥750</td>
+                        <td>¥375</td>
+                    </tr>
+                    <tr>
+                        <td>60km~70km</td>
+                        <td>¥900</td>
+                        <td>¥450</td>
+                    </tr>
+                    <tr>
+                        <td>70km~80km</td>
+                        <td>¥1,050</td>
+                        <td>¥525</td>
+                    </tr>
+                    <tr>
+                        <td>80km~90km</td>
+                        <td>¥1,300</td>
+                        <td>¥650</td>
+                    </tr>
+                    <tr>
+                        <td>90km~100km</td>
+                        <td>¥1,450</td>
+                        <td>¥725</td>
+                    </tr>
+                    <tr>
+                        <td>100km~110km</td>
+                        <td>¥1,600</td>
+                        <td>¥800</td>
+                    </tr>
+                    <tr>
+                        <td>110km~120km</td>
+                        <td>¥1,750</td>
+                        <td>¥900</td>
+                    </tr>
+                    <tr>
+                        <td>120km~130km</td>
+                        <td>¥1,900</td>
+                        <td>¥950</td>
+                    </tr>
+                    <tr>
+                        <td>130km~140km</td>
+                        <td>¥2,050</td>
+                        <td>¥1,025</td>
+                    </tr>
+                    <tr>
+                        <td>140km~150km</td>
+                        <td>¥2,200</td>
+                        <td>¥1,100</td>
+                    </tr>
+                    <tr>
+                        <td>150km~160km</td>
+                        <td>¥2,350</td>
+                        <td>¥1,175</td>
+                    </tr>
+                    <tr>
+                        <td>160km~</td>
+                        <td>¥2,500</td>
+                        <td>¥1,250</td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+
+        <div class="content-right">
+
+            <div class="side-menu">
+                <a href="#">運行情報を確認</a>
+                <a href="#">時刻表（PDF）</a>
+                <a href="#">運賃・定期券</a>
+                <a href="#">サイクルトレイン</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <h3>常陸水郷鉄道株式会社</h3>
+        <p>〒300-0504 茨城県土浦市桜町５丁目３－１７</p>
+        <p>代表電話：029-XXX-XXXX</p>
+        <div class="copyright">&copy; 2026 Hitachi Suigo Railway All rights reserved.</div>
+        <p>常陸水郷鉄道、その他企業や一部鉄道会社等はすべて架空の創造物であり、実際には存在しません。 文中には、実在の団体・企業名がありますが、それらと一切関係はございません。</p>
+  <a style="color: rgb(0, 204, 255); display: block; text-align: center;" href="https://fictional-railway.github.io/myrailways/">架空鉄道一覧はこちらから</a>
+    </div>
+</footer>
+
+<script src="script.js">
+</script>
+
+</body>
+</html>

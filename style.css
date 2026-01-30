@@ -302,3 +302,79 @@ footer {
     color: #004098;
     margin-right: 8px;
 }
+
+.fare-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+.fare-table th, .fare-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+.fare-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+.fare-table td {
+    font-size: 14px;
+}
+.fare-note {
+    font-size: 12px;
+    color: #666;
+    margin-top: 10px;
+}
+.info-item h4 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    color: #004098;
+}
+
+.ic-item {
+    margin-top: 40px;
+    border-top: #002d6b 1.3px solid;
+    border-bottom: #002d6b 1.3px solid;
+    padding: 5px 0;
+    font-size: large;
+    margin-bottom: 0px;
+}
+
+.ic-item-top {
+    margin-top: 0px;
+    border-top: #002d6b 1.3px solid;
+    border-bottom: #002d6b 1.3px solid;
+    padding: 5px 0;
+    font-size: large;
+    margin-bottom: 0px;
+}
+
+.ic-item-top-2 {
+    margin-top: 10px;
+    border-top: #002d6b 1.3px solid;
+    border-bottom: #002d6b 1.3px solid;
+    padding: 5px 0;
+    font-size: large;
+    margin-bottom: 0px;
+}
+
+.box h5 {
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.table-ticket {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+.table-ticket td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.ticket-left {
+    background-color: #f2f2f2;
+}
